@@ -4,378 +4,316 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaurang Goel - Data Engineer | Azure Cloud Specialist</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <meta name="description"
+        content="Gaurang Goel is a data engineer focused on Azure data platforms, medallion architecture, Databricks, ADF, governance, observability, automation, and Microsoft Fabric.">
+    <meta name="theme-color" content="#08110f">
+    <title>Gaurang Goel | Azure Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <i class="fas fa-database"></i>
-                <span>Gaurang Goel</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header class="site-header" data-elevated="false">
+        <a class="brand" href="#home" aria-label="Gaurang Goel home">
+            <span class="brand-mark" aria-hidden="true">GG</span>
+            <span class="brand-copy">
+                <strong>Gaurang Goel</strong>
+                <span>Azure Data Engineer</span>
+            </span>
+        </a>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="data-background">
-            <div class="data-stream"></div>
-            <div class="data-stream"></div>
-            <div class="data-stream"></div>
-        </div>
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1 class="glitch-text">Data Engineer</h1>
-                <p class="hero-subtitle">Transforming Data into Intelligence | Azure Cloud Specialist</p>
-                <p class="hero-description">
-                    Passionate about building scalable data architectures, implementing data governance solutions,
-                    and exploring cutting-edge AI-driven automation in the cloud ecosystem.
+        <nav class="nav-links" aria-label="Primary navigation">
+            <a href="#work">Work</a>
+            <a href="#stack">Stack</a>
+            <a href="#certs">Certs</a>
+            <a href="#vision">Vision</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <canvas id="data-canvas" aria-hidden="true"></canvas>
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Data platforms with cloud discipline</p>
+                    <h1>Building governed, observable, automation-ready data systems on Azure.</h1>
+                    <p class="hero-lede">
+                        I am Gaurang Goel, a data engineer approaching 2 years of experience by July 2026. I work across
+                        Azure Data Factory, Databricks, medallion architecture, monitoring, infrastructure, Purview, and
+                        the Microsoft Fabric ecosystem.
+                    </p>
+                    <div class="hero-actions" aria-label="Main actions">
+                        <a class="button button-primary" href="#contact">
+                            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                            Connect
+                        </a>
+                        <a class="button button-secondary" href="https://github.com/gaurang7goel" target="_blank"
+                            rel="noreferrer">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="command-panel" aria-label="Professional profile snapshot">
+                    <div class="panel-toolbar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="signal-stack">
+                        <div class="signal-row">
+                            <span class="signal-label">Platform</span>
+                            <strong>Azure Data Engineering</strong>
+                        </div>
+                        <div class="signal-row">
+                            <span class="signal-label">Architecture</span>
+                            <strong>Bronze -> Silver -> Gold</strong>
+                        </div>
+                        <div class="signal-row">
+                            <span class="signal-label">Governance</span>
+                            <strong>Microsoft Purview</strong>
+                        </div>
+                        <div class="signal-row">
+                            <span class="signal-label">Learning Edge</span>
+                            <strong>Microsoft Fabric + AI Automation</strong>
+                        </div>
+                    </div>
+                    <div class="pulse-meter">
+                        <span class="pulse-label">Hiring Signal</span>
+                        <div class="pulse-track" aria-hidden="true">
+                            <span style="--level: 92%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-strip" aria-label="Core capabilities">
+                <span>ADF orchestration</span>
+                <span>Databricks pipelines</span>
+                <span>DataDog observability</span>
+                <span>DPA monitoring</span>
+                <span>TFE infrastructure</span>
+                <span>Purview governance</span>
+            </div>
+        </section>
+
+        <section id="work" class="section section-light">
+            <div class="section-heading">
+                <p class="eyebrow">What I Bring</p>
+                <h2>A data engineer who thinks beyond pipelines.</h2>
+                <p>
+                    The best data platforms are not just fast. They are explainable, recoverable, secure, and ready for
+                    teams to trust. That is the way I like to build.
                 </p>
-                <div class="cta-buttons">
-                    <a href="#about" class="btn btn-primary">Discover My Journey</a>
-                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
-                </div>
             </div>
-            <div class="hero-visual">
-                <div class="data-visualization">
-                    <div class="cube"></div>
-                    <div class="floating-badge">
-                        <span>2 Years</span>
-                        <span class="badge-light">Experience</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p class="intro-paragraph">
-                        I'm a data engineer with a strong passion for building robust, scalable data solutions
-                        on cloud platforms. With 2 years of hands-on experience in Azure cloud architecture,
-                        I specialize in designing medallion architectures, orchestrating complex data pipelines,
-                        and implementing enterprise-grade data governance frameworks.
+            <div class="value-grid">
+                <article class="value-card">
+                    <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+                    <h3>Medallion Architecture</h3>
+                    <p>
+                        Designing layered data flows from raw ingestion to business-ready outputs, with cleaner quality
+                        boundaries and stronger ownership at every stage.
                     </p>
+                </article>
 
-                    <p class="intro-paragraph">
-                        My expertise spans the entire modern data stack—from Azure Data Factory orchestration to
-                        Databricks analytics, from real-time monitoring with DataDog to data governance with
-                        Microsoft Purview. I'm deeply invested in automation and AI-driven solutions, constantly
-                        exploring how emerging technologies can optimize data workflows and unlock new insights.
+                <article class="value-card">
+                    <i class="fa-solid fa-gears" aria-hidden="true"></i>
+                    <h3>Pipeline Engineering</h3>
+                    <p>
+                        Building and supporting ADF and Databricks workflows that move, transform, and prepare data with
+                        practical attention to scheduling, retries, and cost.
                     </p>
+                </article>
 
-                    <p class="intro-paragraph">
-                        Currently expanding my knowledge in Microsoft Fabric, Microsoft's unified data analytics
-                        platform, while maintaining a strong focus on best practices in data architecture,
-                        infrastructure-as-code, and enterprise data governance.
+                <article class="value-card">
+                    <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                    <h3>Observability</h3>
+                    <p>
+                        Using tools such as DataDog and DPA to monitor health, performance, failures, and platform
+                        signals before small issues become noisy incidents.
                     </p>
+                </article>
 
-                    <div class="highlights">
-                        <div class="highlight-item">
-                            <i class="fas fa-cloud"></i>
-                            <span>Azure Cloud Native</span>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-cog"></i>
-                            <span>Data Pipeline Automation</span>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-shield"></i>
-                            <span>Data Governance</span>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-brain"></i>
-                            <span>AI-Driven Solutions</span>
-                        </div>
-                    </div>
+                <article class="value-card">
+                    <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                    <h3>Governance Mindset</h3>
+                    <p>
+                        Working with Microsoft Purview to strengthen cataloging, lineage, metadata awareness, and the
+                        habits that make enterprise data easier to govern.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="stack" class="section section-dark">
+            <div class="section-heading split-heading">
+                <div>
+                    <p class="eyebrow">Technical Stack</p>
+                    <h2>Hands-on with the modern Microsoft data ecosystem.</h2>
+                </div>
+                <p>
+                    I like tools that make systems more reliable: orchestration that is clear, compute that scales,
+                    monitoring that speaks early, and automation that removes repeated manual work.
+                </p>
+            </div>
+
+            <div class="stack-board">
+                <article class="stack-column">
+                    <h3><i class="fa-brands fa-microsoft" aria-hidden="true"></i> Cloud Data</h3>
+                    <ul>
+                        <li>Azure Data Factory</li>
+                        <li>Azure Data Lake patterns</li>
+                        <li>Azure cloud operations</li>
+                        <li>Microsoft Fabric learning</li>
+                    </ul>
+                </article>
+
+                <article class="stack-column">
+                    <h3><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Processing</h3>
+                    <ul>
+                        <li>Databricks</li>
+                        <li>Spark-based transformation</li>
+                        <li>ETL and ELT workflows</li>
+                        <li>Bronze, Silver, Gold modeling</li>
+                    </ul>
+                </article>
+
+                <article class="stack-column">
+                    <h3><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i> Reliability</h3>
+                    <ul>
+                        <li>DataDog dashboards</li>
+                        <li>DPA monitoring</li>
+                        <li>Pipeline alerting</li>
+                        <li>Performance investigation</li>
+                    </ul>
+                </article>
+
+                <article class="stack-column">
+                    <h3><i class="fa-solid fa-code-branch" aria-hidden="true"></i> Platform</h3>
+                    <ul>
+                        <li>Terraform Enterprise</li>
+                        <li>Infrastructure as code</li>
+                        <li>Git-based collaboration</li>
+                        <li>Automation-first delivery</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="certs" class="section section-light">
+            <div class="section-heading">
+                <p class="eyebrow">Certified Foundation</p>
+                <h2>Microsoft data credentials that match the work.</h2>
+            </div>
+
+            <div class="cert-grid">
+                <article class="cert-card">
+                    <span class="cert-code">DP-900</span>
+                    <h3>Azure Data Fundamentals</h3>
+                    <p>Foundation in core data concepts and Azure data services.</p>
+                </article>
+
+                <article class="cert-card featured">
+                    <span class="cert-code">DP-203</span>
+                    <h3>Data Engineering on Microsoft Azure</h3>
+                    <p>Engineering data pipelines, storage, processing, and serving layers on Azure.</p>
+                </article>
+
+                <article class="cert-card">
+                    <span class="cert-code">DP-700</span>
+                    <h3>Microsoft Fabric Analytics Engineer</h3>
+                    <p>Fabric-focused analytics engineering across Microsoft's unified data platform.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="vision" class="section section-accent">
+            <div class="vision-layout">
+                <div class="section-heading">
+                    <p class="eyebrow">Why Data Engineering</p>
+                    <h2>I enjoy the invisible craft that makes decision-making feel effortless.</h2>
+                    <p>
+                        My interest sits at the intersection of cloud platforms, automation, governance, and AI. I am
+                        especially drawn to systems that quietly reduce manual effort while improving data trust.
+                    </p>
                 </div>
 
-                <div class="timeline">
-                    <h3>Experience Journey</h3>
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h4>Senior Data Engineer Path</h4>
-                            <p>2024 - Present (July 2026)</p>
-                            <span class="badge">Current Focus</span>
-                        </div>
+                <div class="vision-list">
+                    <div class="vision-item">
+                        <span>01</span>
+                        <p>Automating repetitive data operations so engineers can spend more time improving systems.</p>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h4>Specialized in Cloud Data Architecture</h4>
-                            <p>Azure Services, Medallion Architecture, Databricks</p>
-                        </div>
+                    <div class="vision-item">
+                        <span>02</span>
+                        <p>Exploring AI-assisted workflows that make incident response, documentation, and lineage
+                            easier to reason about.</p>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h4>Enterprise Data Solutions</h4>
-                            <p>Data Governance, Monitoring, Infrastructure as Code</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <h4>Emerging Tech Pioneer</h4>
-                            <p>Microsoft Fabric, AI/ML Integration, Modern Analytics</p>
-                        </div>
+                    <div class="vision-item">
+                        <span>03</span>
+                        <p>Learning Microsoft Fabric as a one-stop analytics platform for lakehouse, warehouse, BI, and
+                            governance experiences.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Arsenal</h2>
-
-            <div class="skills-grid">
-                <!-- Cloud & Infrastructure -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-cloud"></i>
-                        <h3>Cloud & Infrastructure</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Azure Data Factory</span>
-                        <span class="skill-tag">Azure Synapse</span>
-                        <span class="skill-tag">Azure Data Lake</span>
-                        <span class="skill-tag">Terraform Enterprise</span>
-                        <span class="skill-tag">Infrastructure as Code</span>
-                    </div>
-                </div>
-
-                <!-- Data Processing & Analytics -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-database"></i>
-                        <h3>Data Processing</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Databricks</span>
-                        <span class="skill-tag">Apache Spark</span>
-                        <span class="skill-tag">Medallion Architecture</span>
-                        <span class="skill-tag">ETL/ELT Pipelines</span>
-                        <span class="skill-tag">Data Modeling</span>
+        <section id="contact" class="section contact-section">
+            <div class="contact-layout">
+                <div>
+                    <p class="eyebrow">Open To Conversations</p>
+                    <h2>Looking for a data engineer who cares about the platform after it ships?</h2>
+                    <p>
+                        I am interested in data engineering roles, Azure platform work, governance-heavy environments,
+                        and teams experimenting with automation and AI in practical ways.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:gaurang7goel@gmail.com">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            gaurang7goel@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/gaurang7goel" target="_blank" rel="noreferrer">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/gaurang7goel" target="_blank" rel="noreferrer">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            GitHub
+                        </a>
                     </div>
                 </div>
 
-                <!-- Monitoring & Observability -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>Monitoring & Observability</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">DataDog</span>
-                        <span class="skill-tag">Data Pipeline Alerts</span>
-                        <span class="skill-tag">Performance Tuning</span>
-                        <span class="skill-tag">Log Analysis</span>
-                        <span class="skill-tag">DPA Tools</span>
-                    </div>
-                </div>
-
-                <!-- Data Governance -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-lock"></i>
-                        <h3>Data Governance</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Microsoft Purview</span>
-                        <span class="skill-tag">Data Lineage</span>
-                        <span class="skill-tag">Metadata Management</span>
-                        <span class="skill-tag">Compliance & Security</span>
-                        <span class="skill-tag">Data Catalogs</span>
-                    </div>
-                </div>
-
-                <!-- Emerging Technologies -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-rocket"></i>
-                        <h3>Emerging Technologies</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Microsoft Fabric</span>
-                        <span class="skill-tag">AI/ML Integration</span>
-                        <span class="skill-tag">Automation</span>
-                        <span class="skill-tag">Cloud-Native Solutions</span>
-                        <span class="skill-tag">Real-time Analytics</span>
-                    </div>
-                </div>
-
-                <!-- Programming & Tools -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-code"></i>
-                        <h3>Languages & Tools</h3>
-                    </div>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Scala</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">CI/CD Pipelines</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <h2 class="section-title">Certifications & Credentials</h2>
-
-            <div class="certifications-grid">
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>DP-203</h3>
-                    <p class="cert-description">Data Engineering on Microsoft Azure</p>
-                    <span class="cert-badge">Advanced</span>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>DP-900</h3>
-                    <p class="cert-description">Azure Data Fundamentals</p>
-                    <span class="cert-badge">Foundation</span>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>DP-700</h3>
-                    <p class="cert-description">Microsoft Fabric Analytics Engineer</p>
-                    <span class="cert-badge">Specialized</span>
-                </div>
-            </div>
-
-            <div class="cert-note">
-                <i class="fas fa-lightbulb"></i>
-                <p>Continuously learning and staying updated with Microsoft's latest data analytics solutions and best
-                    practices in cloud engineering.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Passion & Vision Section -->
-    <section class="passion">
-        <div class="container">
-            <h2 class="section-title">My Passion</h2>
-            <div class="passion-grid">
-                <div class="passion-card">
-                    <div class="passion-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3>Automation First</h3>
-                    <p>I'm driven by the philosophy of automation everywhere—from CI/CD pipelines to intelligent data
-                        workflows that require minimal manual intervention.</p>
-                </div>
-
-                <div class="passion-card">
-                    <div class="passion-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>AI & Intelligence</h3>
-                    <p>Exploring the intersection of data engineering and AI/ML, leveraging large language models and
-                        machine learning to create intelligent data solutions.</p>
-                </div>
-
-                <div class="passion-card">
-                    <div class="passion-icon">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h3>Architecture Excellence</h3>
-                    <p>Designing scalable, maintainable data architectures that grow with business needs while
-                        maintaining performance, security, and governance standards.</p>
-                </div>
-
-                <div class="passion-card">
-                    <div class="passion-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3>Cloud Innovation</h3>
-                    <p>Staying at the forefront of cloud data technologies, from Microsoft Fabric to emerging serverless
-                        solutions that transform how we process data.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
-            <p class="contact-intro">
-                Interested in discussing data engineering, cloud architecture, or exploring exciting opportunities?
-            </p>
-
-            <div class="contact-methods">
-                <a href="mailto:gaurang.goel@example.com" class="contact-card">
-                    <i class="fas fa-envelope"></i>
-                    <h3>Email</h3>
-                    <p>gaurang7goel@gmail.com</p>
-                </a>
-
-                <a href="https://linkedin.com/in/gaurang7goel" class="contact-card" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                    <h3>LinkedIn</h3>
-                    <p>Connect with me</p>
-                </a>
-
-                <a href="https://github.com/gaurang7goel" class="contact-card" target="_blank">
-                    <i class="fab fa-github"></i>
-                    <h3>GitHub</h3>
-                    <p>Check my projects</p>
-                </a>
-
-            </div>
-
-            <div class="contact-form-section">
-                <h3>Quick Message</h3>
-                <form class="contact-form" onsubmit="handleSubmit(event)">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                <form class="contact-form" id="contact-form">
+                    <label>
+                        Name
+                        <input type="text" name="name" autocomplete="name" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" autocomplete="email" required>
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" rows="5" required></textarea>
+                    </label>
+                    <button class="button button-primary" type="submit">
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                        Send Email
+                    </button>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024-2026 Gaurang Goel. Data Engineer | Cloud Specialist | AI Enthusiast</p>
-            <p>Built with passion for data and technology. Explore. Learn. Innovate.</p>
-        </div>
+    <footer class="site-footer">
+        <p>&copy; 2026 Gaurang Goel. Built for data engineering, cloud platforms, and useful automation.</p>
     </footer>
 
     <script src="script.js"></script>
