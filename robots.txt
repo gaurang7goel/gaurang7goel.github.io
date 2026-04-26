@@ -1,0 +1,20 @@
+# robots.txt - Search Engine Optimization
+User-agent: *
+Allow: /
+
+# Allow specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow files
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://gaurang7goel.github.io/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

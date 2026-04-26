@@ -1,0 +1,33 @@
+# GitHub Pages Configuration
+title: Gaurang Goel - Data Engineer Portfolio
+description: Data Engineer with 2+ years of Azure Cloud experience. Specialist in Data Architecture, Medallion Architecture, ADF, Databricks, and Data Governance.
+author: Gaurang Goel
+url: https://gaurang7goel.github.io
+
+# Theme
+remote_theme: null
+markdown: kramdown
+permalink: none
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+  - README.md
+
+# SEO
+google_site_verification: ""
+twitter:
+  username: ""
+  
+social:
+  name: Gaurang Goel
+  links:
+    - https://linkedin.com/in/gaurang-goel
+    - https://github.com/gaurang7goel
+    - https://twitter.com
+
+# Analytics
+google_analytics: ""
