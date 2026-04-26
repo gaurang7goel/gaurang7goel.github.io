@@ -9,6 +9,7 @@
    - Add your Twitter handle (if any)
 
 2. **Update certifications** (if different):
+
    ```html
    <h3>DP-203</h3>
    <p class="cert-description">Data Engineering on Microsoft Azure</p>
@@ -22,11 +23,11 @@ Edit `styles.css` and modify the color variables:
 
 ```css
 :root {
-    --primary: #00d4ff;        /* Change this to your favorite color */
-    --primary-dark: #0099cc;
-    --primary-light: #4df5ff;
-    --secondary: #ff006e;      /* Accent color */
-    --accent: #8338ec;         /* Another accent */
+  --primary: #00d4ff; /* Change this to your favorite color */
+  --primary-dark: #0099cc;
+  --primary-light: #4df5ff;
+  --secondary: #ff006e; /* Accent color */
+  --accent: #8338ec; /* Another accent */
 }
 ```
 
@@ -40,6 +41,7 @@ Edit `styles.css` and modify the color variables:
 ### Step 4: Deploy to GitHub Pages
 
 #### Option A: Using Git Command Line
+
 ```bash
 cd d:\Downloads\gaurang7goel.github.io
 git add .
@@ -48,6 +50,7 @@ git push origin main
 ```
 
 #### Option B: Using GitHub Desktop
+
 1. Open GitHub Desktop
 2. Select your repository
 3. Click "Commit to main"

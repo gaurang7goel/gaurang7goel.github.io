@@ -5,6 +5,7 @@ A modern, catchy, and professionally designed portfolio website for a Data Engin
 ## ✨ Features
 
 ### 🎨 Design Highlights
+
 - **Modern Data Theme**: Sleek, futuristic design with data visualization elements
 - **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
 - **Smooth Animations**: Engaging transitions and animations throughout
@@ -54,48 +55,58 @@ gaurang7goel.github.io/
 ## 🎯 Customization Guide
 
 ### 1. **Update Personal Information**
+
 Edit `index.html` and update:
+
 - Email: Replace `gaurang.goel@example.com`
 - LinkedIn: Update URL in contact section
 - GitHub: Update profile URL
 - Twitter: Add your Twitter handle
 
 ### 2. **Modify Colors**
+
 In `styles.css`, update the CSS variables:
+
 ```css
 :root {
-    --primary: #00d4ff;        /* Main cyan color */
-    --secondary: #ff006e;      /* Pink accent */
-    --accent: #8338ec;         /* Purple accent */
-    --dark-bg: #0a0e27;        /* Dark background */
+  --primary: #00d4ff; /* Main cyan color */
+  --secondary: #ff006e; /* Pink accent */
+  --accent: #8338ec; /* Purple accent */
+  --dark-bg: #0a0e27; /* Dark background */
 }
 ```
 
 ### 3. **Add Projects Section** (Optional)
+
 Add a new section in `index.html`:
+
 ```html
 <section id="projects" class="projects">
-    <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <!-- Add project cards here -->
-    </div>
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <!-- Add project cards here -->
+  </div>
 </section>
 ```
 
 ### 4. **Update Experience Timeline**
+
 Modify the timeline section in the About area:
+
 ```html
 <div class="timeline-item">
-    <div class="timeline-marker"></div>
-    <div class="timeline-content">
-        <h4>Your Role Here</h4>
-        <p>Your company or project details</p>
-    </div>
+  <div class="timeline-marker"></div>
+  <div class="timeline-content">
+    <h4>Your Role Here</h4>
+    <p>Your company or project details</p>
+  </div>
 </div>
 ```
 
 ### 5. **Customize Skills**
+
 Update skill tags in the Skills section:
+
 ```html
 <span class="skill-tag">Your Skill Here</span>
 ```
@@ -103,6 +114,7 @@ Update skill tags in the Skills section:
 ## 🚀 Deployment
 
 ### Deploy to GitHub Pages
+
 1. Push all files to your GitHub repository
 2. Go to repository Settings → Pages
 3. Select "Deploy from a branch"
@@ -111,6 +123,7 @@ Update skill tags in the Skills section:
 6. Your site will be live at `https://gaurang7goel.github.io`
 
 ### Local Testing
+
 Simply open `index.html` in your web browser to test locally.
 
 ## 📱 Browser Compatibility
@@ -123,14 +136,14 @@ Simply open `index.html` in your web browser to test locally.
 
 ## 🎨 Color Palette
 
-| Color | Usage |
-|-------|-------|
-| #00d4ff (Cyan) | Primary accent, buttons, highlights |
-| #ff006e (Pink) | Secondary accent, badges |
-| #8338ec (Purple) | Accent gradients |
-| #0a0e27 (Dark Blue) | Main background |
-| #050811 (Darker Blue) | Darker background sections |
-| #1a1f3a (Card) | Card backgrounds |
+| Color                 | Usage                               |
+| --------------------- | ----------------------------------- |
+| #00d4ff (Cyan)        | Primary accent, buttons, highlights |
+| #ff006e (Pink)        | Secondary accent, badges            |
+| #8338ec (Purple)      | Accent gradients                    |
+| #0a0e27 (Dark Blue)   | Main background                     |
+| #050811 (Darker Blue) | Darker background sections          |
+| #1a1f3a (Card)        | Card backgrounds                    |
 
 ## ✅ Features to Consider Adding
 
@@ -145,6 +158,7 @@ Simply open `index.html` in your web browser to test locally.
 ## 🔧 Form Handling
 
 The contact form includes:
+
 - Input validation
 - Email verification
 - Success feedback animation
@@ -162,6 +176,7 @@ To connect with a backend service, modify the `handleSubmit()` function in `scri
 ## 🎓 Learning Highlights
 
 Your portfolio demonstrates expertise in:
+
 - **Cloud Engineering**: 2+ years with Azure services
 - **Data Architecture**: Medallion architecture implementation
 - **Data Pipeline Orchestration**: ADF and Databricks
@@ -174,6 +189,7 @@ Your portfolio demonstrates expertise in:
 ## 📞 Contact & Support
 
 For portfolio updates or questions:
+
 - Email: gaurang.goel@example.com
 - LinkedIn: linkedin.com/in/gaurang-goel
 - GitHub: github.com/gaurang7goel
@@ -186,4 +202,4 @@ This portfolio website is personal and for your use. Feel free to customize and 
 
 **Made with ❤️ for Data Engineering Excellence** 🚀
 
-*"Transforming Data into Intelligence through Cloud Innovation and Intelligent Automation"*
+_"Transforming Data into Intelligence through Cloud Innovation and Intelligent Automation"_
